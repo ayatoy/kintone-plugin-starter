@@ -5,9 +5,18 @@
     "es6": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended"
+  ],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 2020
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

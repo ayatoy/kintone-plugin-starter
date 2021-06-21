@@ -1,0 +1,22 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "en": "kintone-plugin-starter"
+  },
+  "description": {
+    "en": "kintone-plugin-starter"
+  },
+  "icon": "icon.png",
+  "desktop": {
+    "js": ["desktop.bundle.js"]
+  },
+  "mobile": {
+    "js": ["mobile.bundle.js"]
+  },
+  "config": {
+    "html": "config.html",
+    "js": ["config.bundle.js"]
+  }
+}

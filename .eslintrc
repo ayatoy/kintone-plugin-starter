@@ -18,5 +18,8 @@
     "react": {
       "version": "detect"
     }
+  },
+  "globals": {
+    "kintone": true
   }
 }

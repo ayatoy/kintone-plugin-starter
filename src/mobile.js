@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const PLUGIN_ID = kintone.$PLUGIN_ID;
-
-function Message({ message }) {
-  return <p>{message}</p>;
-}
+import { PLUGIN_ID } from './settings/config';
+import Message from './components/Message';
 
 kintone.events.on('mobile.app.record.index.show', function () {
   ReactDOM.render(

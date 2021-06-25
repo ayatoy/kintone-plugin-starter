@@ -40,6 +40,10 @@ npm run clean
 ```
 npm run fix
 ```
+- テスト
+```
+npm test
+```
 
 # License
 [MIT](LICENSE)

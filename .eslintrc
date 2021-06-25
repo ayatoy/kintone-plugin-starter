@@ -8,9 +8,9 @@
   },
   "extends": [
     "eslint:recommended",
-    "prettier",
     "plugin:react/recommended",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "prettier"
   ],
   "parserOptions": {
     "sourceType": "module",
